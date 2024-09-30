@@ -17,24 +17,27 @@ Pour résoudre ce problème, suivez ces étapes :
    - Exécutez la commande suivante :
 
 	(Ne pas oublier de remplacer le chemin par le vôtre)
+ ```
      takeown /F "C:\Program Files (x86)\VMware\VMware Workstation" /R /D Y
-    
+     ```
    - Cela permet à l'utilisateur de devenir le propriétaire du dossier et de son contenu.
 
-3. **Attribuer des permissions à l'utilisateur** :
+4. **Attribuer des permissions à l'utilisateur** :
    - Accordez les permissions avec la commande :
     
 	 (Toujours pas oublier de remplacer le chemin & Remplacer boucl par votre user de base)
+	 ```
      icacls "C:\Program Files (x86)\VMware\VMware Workstation" /grant boucl:(F) /T
-    
+     ```
    - Remplacez `boucl` par le nom de l'utilisateur concerné.
 
-4. **Vérification des permissions** :
+5. **Vérification des permissions** :
    - Pour vérifier que les permissions ont été correctement appliquées, utilisez :
      
 	 (	Toujours pas oublier de remplacer le chemin )
+ ```
      icacls "C:\Program Files (x86)\VMware\VMware Workstation"
-     
+      ```
 
 5. Si cela marche pas vous pouvez **Redémarrer ou relancer la session** :
    - Fermez la session de l'utilisateur et rouvrez-la, ou redémarrez l'ordinateur pour appliquer les changements.
