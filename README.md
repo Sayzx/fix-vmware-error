@@ -1,6 +1,12 @@
 # fix-vmware-error
 Fix vmware permissions error
 
+[Setup de VMWare](https://www.mediafire.com/file/qj01yrmb473yzjc/VMware-workstation-full-17.6.0-24238078.exe/file)
+[Clé VMWARE](https://github.com/hegdepavankumar/VMware-Workstation-Pro-17-Licence-Keys)
+
+[Fix l'erreur "An error occurred while applying security settings. Users is not a valid user or group....](https://community.broadcom.com/vmware-cloud-foundation/discussion/1760-24238078-users-is-not-a-valid-user-or-group#:~:text=An%20error%20occurred%20while%20applying,Cancel%20to%20end%20the%20install.)
+
+
 # Résolution de l'erreur "Accès refusé" sur VMware
 
 ## Problème
